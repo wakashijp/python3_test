@@ -24,7 +24,7 @@ for video in data['feed']['entry'][0:6]:
 # 14行目：textをdata、すなわちPythonのデータ構造に変換する。
 # 15行目：動画についての情報を一度にひとつずつvideo変数に取り出す。
 # 15行目：2レベルのPython辞書（data['feed']['entry']）とスライス（[0:6]）を使って情報を切り出す。
-# 15行目：print関数を使って動画のタイトルだけを表示する。
+# 16行目：print関数を使って動画のタイトルだけを表示する。
 # *1 監訳注：原書のコードではYouTubeの古いAPI(https://gdata.youtube.com/feeds/api/standardfeeds/top_rated?alt=json)
 # が使われており、そのAPIは既に廃止されているため動作しない。そのため日本語翻訳版の本書では、固定された結果を返すAPI
 # (https://raw.githubusercontent.com/koki0702/introducing-python/master/dummy_api/youTube_top_rated.json)
